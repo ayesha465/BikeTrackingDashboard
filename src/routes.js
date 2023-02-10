@@ -1,8 +1,9 @@
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-// import Billing from "layouts/billing";
-// import RTL from "layouts/rtl";
-// import Notifications from "layouts/notifications";
+import Account from "layouts/Account";
+import Device from "layouts/Device";
+import Theft from "layouts/Theft";
+import Tracking from "layouts/GPS tracking";
+// import Notification from "layouts/notifications";
 // @mui icons
 import Icon from "@mui/material/Icon";
 
@@ -18,34 +19,34 @@ const routes = [
   {
     type: "collapse",
     name: "Account management",
-    key: "tables",
+    key: "Account management",
     icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
-    component: <Tables />,
+    route: "/Account",
+    component: <Account />,
   },
   {
     type: "collapse",
     name: "Device Mnagement",
-    key: "billing",
+    key: "Device",
     icon: <Icon fontSize="small">receipt_long</Icon>,
-    route: "/dashboard",
-    component: <dashboard />,
+    route: "/Device",
+    component: <Device />,
   },
   {
     type: "collapse",
     name: "Theft Management",
-    key: "rtl",
+    key: "Theft",
     icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-    route: "/dashboard",
-    component: <dashboard />,
+    route: "/Theft",
+    component: <Theft />,
   },
   {
     type: "collapse",
     name: "GPS Tracking Management",
-    key: "rtl",
+    key: "tracking",
     icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-    route: "/dashboard",
-    component: <dashboard />,
+    route: "/Tracking",
+    component: <Tracking />,
   },
   {
     type: "collapse",

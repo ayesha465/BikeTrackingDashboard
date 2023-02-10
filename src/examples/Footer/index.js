@@ -33,7 +33,7 @@ function Footer({ links }) {
 
   const renderLinks = () =>
     links.map((link) => (
-      <MDBox key={link.name} component="li" px={5} lineHeight={15}>
+      <MDBox key={link.name} component="li" px={20} lineHeight={80}>
         <Link href={link.href} target="_blank">
           <MDTypography variant="button" fontWeight="regular" color="text">
             {link.name}
@@ -44,12 +44,12 @@ function Footer({ links }) {
 
   return (
     <MDBox
-      width="50%"
+      width="60%"
       display="flex"
       flexDirection={{ xs: "column", lg: "row" }}
       justifyContent="space-between"
       alignItems="center"
-      px={2.5}
+      px={4.5}
     >
       <MDBox
         component="ul"
