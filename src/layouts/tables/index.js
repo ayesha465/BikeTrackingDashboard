@@ -13,7 +13,7 @@ import authorsTableData from "layouts/tables/data/authorsTableData";
 
 function Tables() {
   const { columns, rows } = authorsTableData();
-  // const { columns: pColumns, rows: pRows } = projectsTableData();
+  const { columns: pColumns, rows: pRows } = projectsTableData();
 
   return (
     <DashboardLayout>

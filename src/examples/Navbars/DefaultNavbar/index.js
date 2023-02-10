@@ -15,7 +15,6 @@ Coded by www.creative-tim.com
 
 import { useState, useEffect } from "react";
 
-// react-router components
 import { Link } from "react-router-dom";
 
 // prop-types is a library for typechecking of props.
